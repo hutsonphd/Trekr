@@ -11,6 +11,13 @@
 		3A64A9FE2602A259007E15B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A64A9FD2602A259007E15B4 /* ContentView.swift */; };
 		3A64AA002602A25A007E15B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A64A9FF2602A25A007E15B4 /* Assets.xcassets */; };
 		3A64AA032602A25A007E15B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A64AA022602A25A007E15B4 /* Preview Assets.xcassets */; };
+		3ADEEE892602A5F500816B85 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEEE872602A5F500816B85 /* tips.json */; };
+		3ADEEE8A2602A5F500816B85 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = 3ADEEE882602A5F500816B85 /* locations.json */; };
+		3ADEEE8D2602ADCA00816B85 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEEE8C2602ADCA00816B85 /* Location.swift */; };
+		3ADEEE912602B11F00816B85 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEEE902602B11F00816B85 /* Locations.swift */; };
+		3ADEEE952602B72E00816B85 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEEE942602B72E00816B85 /* WorldView.swift */; };
+		3ADEEE982602BE4300816B85 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEEE972602BE4300816B85 /* Tip.swift */; };
+		3ADEEE9B2602BF8300816B85 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADEEE9A2602BF8300816B85 /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +27,13 @@
 		3A64A9FF2602A25A007E15B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A64AA022602A25A007E15B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3A64AA042602A25A007E15B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ADEEE872602A5F500816B85 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		3ADEEE882602A5F500816B85 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		3ADEEE8C2602ADCA00816B85 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		3ADEEE902602B11F00816B85 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		3ADEEE942602B72E00816B85 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		3ADEEE972602BE4300816B85 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		3ADEEE9A2602BF8300816B85 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				3A64A9FB2602A259007E15B4 /* TrekrApp.swift */,
+				3ADEEE942602B72E00816B85 /* WorldView.swift */,
+				3ADEEE9A2602BF8300816B85 /* TipsView.swift */,
 				3A64A9FD2602A259007E15B4 /* ContentView.swift */,
+				3ADEEE902602B11F00816B85 /* Locations.swift */,
 				3A64A9FF2602A25A007E15B4 /* Assets.xcassets */,
 				3A64AA042602A25A007E15B4 /* Info.plist */,
+				3ADEEE882602A5F500816B85 /* locations.json */,
+				3ADEEE8C2602ADCA00816B85 /* Location.swift */,
+				3ADEEE872602A5F500816B85 /* tips.json */,
 				3A64AA012602A25A007E15B4 /* Preview Content */,
+				3ADEEE972602BE4300816B85 /* Tip.swift */,
 			);
 			path = Trekr;
 			sourceTree = "<group>";
@@ -128,6 +149,8 @@
 			files = (
 				3A64AA032602A25A007E15B4 /* Preview Assets.xcassets in Resources */,
 				3A64AA002602A25A007E15B4 /* Assets.xcassets in Resources */,
+				3ADEEE8A2602A5F500816B85 /* locations.json in Resources */,
+				3ADEEE892602A5F500816B85 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A64A9FE2602A259007E15B4 /* ContentView.swift in Sources */,
+				3ADEEE8D2602ADCA00816B85 /* Location.swift in Sources */,
+				3ADEEE952602B72E00816B85 /* WorldView.swift in Sources */,
+				3ADEEE982602BE4300816B85 /* Tip.swift in Sources */,
+				3ADEEE9B2602BF8300816B85 /* TipsView.swift in Sources */,
+				3ADEEE912602B11F00816B85 /* Locations.swift in Sources */,
 				3A64A9FC2602A259007E15B4 /* TrekrApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
